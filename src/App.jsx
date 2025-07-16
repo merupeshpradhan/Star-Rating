@@ -1,9 +1,11 @@
-import React from 'react'
+import StarRating from "./star-rating";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <StarRating useStars={10}/>
+    </div>
+  );
 }
 
-export default App
+export default App;
